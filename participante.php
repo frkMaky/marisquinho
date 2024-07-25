@@ -1,6 +1,6 @@
 <?php
 
-    include __DIR__ . '/scripts/database.php';
+    include __DIR__ . './scripts/database.php';
 
     $id = $_GET['id'];
 
@@ -20,7 +20,7 @@ WHERE p.id ={$id}";
     }
 ?>
 
-<?php include __DIR__ . '/scripts/header.php'; ?>
+<?php include __DIR__ . './scripts/header.php'; ?>
 
 <main>
 
@@ -47,4 +47,4 @@ WHERE p.id ={$id}";
     </table>
 </main>
 
-<?php include __DIR__ . '/scripts/footer.php'; ?>
+<?php include __DIR__ . './scripts/footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php include __DIR__ . '/scripts/header.php'; ?>
+<?php include __DIR__ . './scripts/header.php'; ?>
 
 <seccion class="modalidades">
 
@@ -32,4 +32,4 @@ Y como parte de la World Cup Skateboarding, seguimos citando a los mejores skate
 </seccion>
 
 
-<?php include __DIR__ . '/scripts/footer.php'; ?>
+<?php include __DIR__ . './scripts/footer.php'; ?>

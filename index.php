@@ -1,4 +1,4 @@
-<?php include __DIR__ . '/scripts/header.php'; ?>
+<?php include __DIR__ . './scripts/header.php'; ?>
 
 
 <main class="contenedor">
@@ -60,4 +60,4 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5910.440471481062!2d-8.782517102702442!3d42.20973738159275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd258a74d08202e3%3A0xc92165195e191e2b!2sPlaya%20de%20Samil!5e0!3m2!1ses!2ses!4v1718986421011!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
-<?php include __DIR__ . '/scripts/footer.php'; ?>
+<?php include __DIR__ . './scripts/footer.php'; ?>

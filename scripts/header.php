@@ -6,7 +6,7 @@
     <title>O Marisquiño</title>
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="./css/estiloMarisquinho.css">
+    <link rel="stylesheet" href="../css/estiloMarisquinho.css">
 </head>
 <body>
 

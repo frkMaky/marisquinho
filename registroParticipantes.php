@@ -1,6 +1,6 @@
 <?php
 
-    include __DIR__ . '/scripts/database.php';
+    include __DIR__ . './scripts/database.php';
 
     // Mensajes ----------------------------
     $mensajes = [];
@@ -66,7 +66,7 @@
 
         // Devolver el resultado 
         if ($resultado) {
-            header('Location: /gri/marisquinho/participantes.php');
+            header('Location: ./');
         }
         
     }
@@ -86,13 +86,13 @@
 
 ?>
 
-    <?php include __DIR__ . '/scripts/header.php'; ?>
+    <?php include __DIR__ . './scripts/header.php'; ?>
 
     <main>
     <form method='post' >
         <legend>Rellena el formulario para registrar tu participación:</legend>
         
-        <?php include_once __DIR__ .'/scripts/formulario.php'; ?>
+        <?php include_once __DIR__ .'./scripts/formulario.php'; ?>
         
         <div class="campo">
             <label for="btnRegistrar">Registra tu participación:  </label>
@@ -102,5 +102,5 @@
     </form>
     </main>
     
-    <?php include __DIR__ . '/scripts/footer.php'; ?>
+    <?php include __DIR__ . './scripts/footer.php'; ?>
 

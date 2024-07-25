@@ -1,6 +1,6 @@
 <?php
 
-    include __DIR__ . '/scripts/database.php';
+    include __DIR__ . './scripts/database.php';
 
     // Cargar participantes
     $participantes = [];
@@ -36,7 +36,7 @@
         $resultado = $conn->query($query);
 
         if ($resultado) {
-            header('Location: /gri/marisquinho/participantes.php');
+            header('Location: ./');
         }
     }
 
@@ -51,17 +51,17 @@
     <?php include __DIR__ . '/scripts/header.php'; ?>
 
     <nav class="filtrosParticipantes"> Filtrar por modalidad:
-        <a class="filtrosParticipantes-enlace" href="/gri/marisquinho/participantes.php"><span class="material-symbols-outlined"> menu </span> </a>
-        <a class="filtrosParticipantes-enlace" href="/gri/marisquinho/participantes.php?mod=skate"> <span class="material-symbols-outlined">skateboarding</span> </a>
-        <a class="filtrosParticipantes-enlace" href="/gri/marisquinho/participantes.php?mod=bmx"><span class="material-symbols-outlined"> directions_bike </span> </a>
-        <a class="filtrosParticipantes-enlace" href="/gri/marisquinho/participantes.php?mod=breaking"><span class="material-symbols-outlined"> group </span></a>
+        <a class="filtrosParticipantes-enlace" href="./participantes.php"><span class="material-symbols-outlined"> menu </span> </a>
+        <a class="filtrosParticipantes-enlace" href="./participantes.php?mod=skate"> <span class="material-symbols-outlined">skateboarding</span> </a>
+        <a class="filtrosParticipantes-enlace" href="./participantes.php?mod=bmx"><span class="material-symbols-outlined"> directions_bike </span> </a>
+        <a class="filtrosParticipantes-enlace" href="./participantes.php?mod=breaking"><span class="material-symbols-outlined"> group </span></a>
     </nav>
     
     <main class="participantesRegistrados">
 
-    <?php include_once __DIR__ . '/scripts/tablaParticipantes.php';?>
+    <?php include_once __DIR__ . './scripts/tablaParticipantes.php';?>
 
     </main>
 
 
-    <?php include __DIR__ . '/scripts/footer.php'; ?>
+    <?php include __DIR__ . './scripts/footer.php'; ?>
